@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label>Current Alarm</ion-label>
+    <ion-datetime displayFormat="MM/DD/YYYY HH:mm:ss" [(ngModel)]="alarmDate"></ion-datetime>
+  </ion-item>
+  <ion-item>
+    <ion-label>Current DateTime</ion-label>
+    <ion-label>{{currentDate}}</ion-label>
+  </ion-item>
+</ion-content>
